@@ -1,0 +1,1104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &702286592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702286595}
+  - component: {fileID: 702286594}
+  - component: {fileID: 702286593}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &702286593
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702286592}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: aeb9bdf01d80a8744b8aa9cef9685808, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &702286594
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702286592}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: aeb9bdf01d80a8744b8aa9cef9685808, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!4 &702286595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702286592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -75, y: 0, z: -75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &895268313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895268314}
+  - component: {fileID: 895268315}
+  m_Layer: 3
+  m_Name: Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895268314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895268313}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895268315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895268313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 0b85ee0cc990c8f45bb99559adb1fc53, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!1 &1675476950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675476951}
+  - component: {fileID: 1675476952}
+  m_Layer: 0
+  m_Name: FrameCap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675476951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675476950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675476952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675476950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd59110d972857c4a8d71a4ab1c4345a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1771313597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771313599}
+  - component: {fileID: 1771313598}
+  m_Layer: 0
+  m_Name: City
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1771313598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771313597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7453835b11611942a74c1c3805de15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intersections:
+  - {x: 0, y: 0}
+  - {x: -1.3625269, y: -12.746296}
+  - {x: -11.590437, y: 10.660739}
+  - {x: 10, y: 10}
+  - {x: 20, y: 6.2013865}
+  - {x: 16.535162, y: -10.252901}
+  - {x: 0, y: 20}
+  - {x: -20.524704, y: -10.908246}
+  - {x: -0.30608916, y: -28.435232}
+  - {x: 19.391792, y: -20.89232}
+  - {x: -25.489986, y: -29.026505}
+  - {x: -40.406013, y: -39.632866}
+  - {x: -54.623383, y: -58.14545}
+  - {x: -71.49164, y: -79.39067}
+  - {x: 2.640052, y: -44.862885}
+  - {x: 11.251366, y: -59.184338}
+  - {x: 30.063797, y: -65.5327}
+  - {x: 30.063797, y: -79.10143}
+  - {x: -43.51332, y: -8.406805}
+  - {x: -55.251274, y: -8.441973}
+  - {x: -68.962074, y: -1.7169571}
+  - {x: -79.58516, y: 10.147089}
+  - {x: -22.73051, y: 18.746384}
+  - {x: -24.404922, y: 42.828175}
+  - {x: -48.0151, y: 77.897095}
+  - {x: -40.765526, y: 56.21702}
+  - {x: -1.4931173, y: 35.7394}
+  - {x: 33.020515, y: 20.775703}
+  - {x: 56.08914, y: 31.317411}
+  - {x: 78.798615, y: 31.46675}
+  - {x: 34.043198, y: -31.06695}
+  - {x: 54.823055, y: -29.631714}
+  - {x: 76.35088, y: -37.693798}
+  roads:
+  - a: 1
+    b: 0
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 4
+    numberOfBuildingsOnRoadNeg: 3
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 1
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 0
+    b: 2
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 4
+    numberOfBuildingsOnRoadNeg: 3
+    posAShortening: 0
+    posBShortening: 1
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 3
+    b: 0
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 6
+    numberOfBuildingsOnRoadNeg: 3
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 3
+    b: 4
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 4
+    numberOfBuildingsOnRoadNeg: 3
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 5
+    b: 4
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 7
+    numberOfBuildingsOnRoadNeg: 11
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 5
+    b: 1
+    roadWidth: 1
+    buildingDepth: 3.9
+    numberOfBuildingsOnRoadPos: 6
+    numberOfBuildingsOnRoadNeg: 6
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 6
+    b: 2
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 5
+    numberOfBuildingsOnRoadNeg: 6
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 6
+    b: 3
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 7
+    numberOfBuildingsOnRoadNeg: 3
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 1
+    b: 7
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 7
+    numberOfBuildingsOnRoadNeg: 5
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0.5
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 2
+    b: 7
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 6
+    numberOfBuildingsOnRoadNeg: 10
+    posAShortening: 1
+    posBShortening: 1
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 10
+    b: 7
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 7
+    numberOfBuildingsOnRoadNeg: 5
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0.5
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 10
+    b: 8
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 8
+    numberOfBuildingsOnRoadNeg: 10
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 1
+    b: 8
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 3
+    numberOfBuildingsOnRoadNeg: 4
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 9
+    b: 8
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 9
+    numberOfBuildingsOnRoadNeg: 6
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 1
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 9
+    b: 5
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 1
+    numberOfBuildingsOnRoadNeg: 6
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 10
+    b: 11
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 1
+    buildingsPositive: 1
+  - a: 12
+    b: 11
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 12
+    b: 13
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0
+    posBShortening: 0
+    negAShortening: 0
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 14
+    b: 8
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0.5
+    negAShortening: 0.5
+    negBShortening: 0.5
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 15
+    b: 14
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 15
+    b: 16
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 17
+    b: 16
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 18
+    b: 7
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 18
+    b: 19
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 20
+    b: 19
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 20
+    b: 21
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 22
+    b: 2
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 22
+    b: 23
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 25
+    b: 23
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 25
+    b: 24
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 26
+    b: 23
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 26
+    b: 6
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 27
+    b: 4
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 27
+    b: 28
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 29
+    b: 28
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 30
+    b: 9
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 31
+    b: 30
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  - a: 31
+    b: 32
+    roadWidth: 1
+    buildingDepth: 4
+    numberOfBuildingsOnRoadPos: 2
+    numberOfBuildingsOnRoadNeg: 2
+    posAShortening: 0.5
+    posBShortening: 0
+    negAShortening: 0.5
+    negBShortening: 0
+    buildingsNegatif: 0
+    buildingsPositive: 0
+  cornerPrefab: {fileID: 1393328751660101979, guid: e716995c2be4e594f95f805583323980, type: 3}
+  middlePrefab: {fileID: 1393328751660101979, guid: 393cef7620788e04cb9832fb43238203, type: 3}
+  handles: 1
+--- !u!4 &1771313599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771313597}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1835311699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835311702}
+  - component: {fileID: 1835311701}
+  - component: {fileID: 1835311700}
+  - component: {fileID: 1835311703}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1835311700
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835311699}
+  m_Enabled: 1
+--- !u!20 &1835311701
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835311699}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1835311702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835311699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.28692758, y: -0.370064, z: 0.12131995, w: 0.87521815}
+  m_LocalPosition: {x: 31.06, y: 31, z: -43.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 36.302, y: -45.84, z: 0}
+--- !u!114 &1835311703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835311699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1835311702}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!1 &1954775921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1954775923}
+  - component: {fileID: 1954775922}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1954775922
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954775921}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1954775923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954775921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.14722574, y: -0.1918684, z: 0.15648602, w: 0.9576133}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: -20, z: 15}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1835311702}
+  - {fileID: 1954775923}
+  - {fileID: 1771313599}
+  - {fileID: 702286595}
+  - {fileID: 1675476951}
+  - {fileID: 895268314}
